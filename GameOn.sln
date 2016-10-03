@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOn", "GameOn\GameOn.csproj", "{A5BE7F5F-6A4D-4D5B-B408-0A11465AFBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOnAPI", "GameOnAPI\GameOnAPI.csproj", "{A47A81A7-03AA-43B9-AB20-B87D35E6E8AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5BE7F5F-6A4D-4D5B-B408-0A11465AFBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BE7F5F-6A4D-4D5B-B408-0A11465AFBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BE7F5F-6A4D-4D5B-B408-0A11465AFBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BE7F5F-6A4D-4D5B-B408-0A11465AFBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A47A81A7-03AA-43B9-AB20-B87D35E6E8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47A81A7-03AA-43B9-AB20-B87D35E6E8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47A81A7-03AA-43B9-AB20-B87D35E6E8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47A81A7-03AA-43B9-AB20-B87D35E6E8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
