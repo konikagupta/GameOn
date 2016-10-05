@@ -29,6 +29,7 @@ namespace GameOnAPI
                 case "register" :
                     string useremail = Request.QueryString["email"];
                     string userphone = Request.QueryString["phone"];
+                    // this is testing
                     break;
             }
         }
