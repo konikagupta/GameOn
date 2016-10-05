@@ -23,7 +23,8 @@ namespace GameOnAPI
                     string username = wsGameAPI.Login(userid, password);
                     if (!string.IsNullOrWhiteSpace(username))
                     {
-                        Response.Write(Helper.GenerateJSON(wsGameAPI.GetUserByUserName(username)));
+                        string json = Helper.GenerateJSON(wsGameAPI.GetUserByUserName(username));
+                        Response.Write(json);
                     }
                     break;
                 case "register" :
@@ -32,16 +33,6 @@ namespace GameOnAPI
                     // master commit test
                     break;
             }
-        }
-
-        private void GenerateJSON(object obj)
-        {
-            MemoryStream stream = new MemoryStream();
-            DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(User));
-            ser.WriteObject(stream, obj);
-            stream.Position = 0;
-            StreamReader sr = new StreamReader(stream);
-            Response.Write(sr.ReadToEnd());
         }
     }
 }

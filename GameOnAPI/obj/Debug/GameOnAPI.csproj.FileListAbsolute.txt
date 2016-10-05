@@ -15,4 +15,3 @@ C:\Users\ljp\Desktop\GameOn\GameOnAPI\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\ljp\Desktop\GameOn\GameOnAPI\bin\Microsoft.ApplicationInsights.xml
 C:\Users\ljp\Desktop\GameOn\GameOnAPI\obj\Debug\GameOnAPI.dll
 C:\Users\ljp\Desktop\GameOn\GameOnAPI\obj\Debug\GameOnAPI.pdb
-C:\Users\ljp\Desktop\GameOn\GameOnAPI\obj\Debug\GameOnAPI.csprojResolveAssemblyReference.cache
